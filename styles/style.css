@@ -152,3 +152,25 @@ main {
   text-align: center;
   margin-top: 30px;
 }
+/* footer section started */
+footer{
+  display: flex;
+  justify-content: space-between;
+  background: #FFF8F3;
+  padding: 130px 230px;
+  gap: 100px;
+}
+.footer-colum{
+  width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+  display: block;
+  margin-bottom: 30px;
+  border: 0;
+  padding: 18px 35px;
+  border-radius: 5px;
+  color: #757575;
+  background: #fff;
+  width: 100%;
+
+}
