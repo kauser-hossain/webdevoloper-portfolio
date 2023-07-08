@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* common shared style */
 body {
   font-family: "Open Sans", sans-serif;
@@ -17,11 +22,27 @@ body {
   align-items: center;
   text-align: center;
 }
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-detail{
+  color:  #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+  
+  }
 /* nav related style  */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 .nav-title {
   color: #181818;
@@ -31,7 +52,6 @@ nav {
 nav > ul {
   display: flex;
   align-items: center;
-  
 }
 nav li {
   list-style: none;
@@ -43,3 +63,52 @@ nav a {
   font-size: 20px;
   font-weight: 400;
 }
+/* header related style */
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 0 150px;
+  justify-content: space-between;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner .profile-pic {
+  width: 500px;
+}
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 585px;
+  margin-top: -20px;
+}
+/* main section styles */
+/* about section styles */
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
+}
+
